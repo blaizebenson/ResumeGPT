@@ -1,66 +1,32 @@
-# ResumeGPT: AI-Powered Resume and Cover Letter Assistant  
-**EGR 404 Project Proposal**
+# ResumeGPT – AI Resume & Cover Letter Assistant
 
----
+ResumeGPT is a generative AI tool designed to streamline and personalize the job application process. Using GPT-4, it generates custom resumes and cover letters aligned to specific job descriptions.
 
-## 1. Name of Project Partner  
-**Blaize Benson** (Working Solo)
+## Features
+- Upload or paste an existing resume
+- Paste a job description for matching
+- Generate ATS-optimized resume + tailored cover letter
+- Export or copy results
+- (Coming soon) LinkedIn summary suggestions
 
----
+## Resources Used
+- GPT-4 via OpenAI API
+- Resume parsing library (ayush1997/ResumeParser)
+- Public datasets (Kaggle Resumes, scraped job descriptions)
+- Streamlit for front-end interface
 
-## 2. Title of the Project  
-**ResumeGPT: AI-Powered Resume and Cover Letter Assistant**
+## Timeline
+- April 3: UI and resume parser setup
+- April 10: GPT integration
+- April 17: Internal testing
+- April 24: Final polish
+- April 29: Final presentation
 
----
+## Repository Contents
+- prompts.md – Prompt templates used in GPT calls
+- layout.md – UI layout and structure
+- examples.md – Sample inputs and GPT outputs
+- user_guide.md – Walkthrough for users
 
-## 3. Clear Description of the Project  
-ResumeGPT helps users generate tailored resumes and cover letters based on their background, target job descriptions, and industry standards. It addresses the challenge of crafting effective, personalized application materials.
-
-### Core Features:
-- Web interface for input (resume, LinkedIn, or form)
-- GPT-powered resume and cover letter generation
-- Job description parsing and alignment
-- Customizable templates
-- Version control for edits and drafts
-
-### Practical Impact:
-A tool to support students, career centers, and job seekers with faster, smarter applications.
-
----
-
-## 4. Resources to Use
-
-- **GitHub Repos**:  
-  - [openai/openai-python](https://github.com/openai/openai-python)  
-  - [ayush1997/ResumeParser](https://github.com/ayush1997/ResumeParser)
-
-- **Data**:  
-  - Kaggle Resume Dataset  
-  - User-provided job descriptions
-
-- **Class Labs**:  
-  - Lab 3 (Zapier GPT Actions)  
-  - Lab 6 (File Upload + Vector Search)
-
-- **Frameworks**:  
-  - Streamlit  
-  - OpenAI API
-
----
-
-## 5. Deliverables
-
-- Functional Streamlit app demo  
-- GitHub repository with source code and documentation  
-- User guide with example inputs/outputs  
-- Basic performance metrics (e.g., keyword match rate, quality feedback)
-
-### Timeline:
-- **April 3**: UI and resume parser  
-- **April 10**: GPT integration  
-- **April 17**: Internal testing  
-- **April 24**: Final version and polish  
-- **April 29**: Final presentation
-
----
-
+## Repository Access
+- Shared with sendag@uri.edu and justin_watkins@uri.edu
